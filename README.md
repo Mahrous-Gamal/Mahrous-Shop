@@ -20,11 +20,11 @@ To run **E-Commerce** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/Mahrous-Gamal/E-Commerce.git
+sudo git clone https://github.com/Mahrous-Gamal/Electronic-Commerce.git
 ```
 
 ```bash
-git clone https://github.com/Mahrous-Gamal/E-Commerce.git
+git clone https://github.com/Mahrous-Gamal/Electronic-Commerce.git
 ```
 
 ### Contact
