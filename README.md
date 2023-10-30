@@ -23,6 +23,8 @@ Linux and macOS:
 sudo git clone https://github.com/Mahrous-Gamal/Electronic-Commerce.git
 ```
 
+Windows:
+
 ```bash
 git clone https://github.com/Mahrous-Gamal/Electronic-Commerce.git
 ```
