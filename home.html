@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <div class="superNav border-bottom py-2  bg-light">
+    <div class="superNav border-bottom py-2 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 centerOnMobile">
@@ -29,9 +29,8 @@
                         <option value="en-us">EN-US</option>
                     </select> -->
                     <span
-                        class="d-none d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-3 "><strong>mahrousgamal2001@gmail.com</strong></span>
-                    <span class="d-lg-inline-block d-md-inline-block me-3"><i
-                            class="fa-solid fa-phone me-1 text-warning"></i>
+                        class="d-none d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-3"><strong>mahrousgamal2001@gmail.com</strong></span>
+                    <span class="me-3"><i class="fa-solid fa-phone me-1 text-warning"></i>
                         <strong>+20 100 144 9752</strong></span>
                 </div>
                 <div
@@ -97,426 +96,406 @@
         </div>
     </nav>
     <div class="container">
-        <h2 class="text-center mt-5  title-BSC">Mobiles</h2>
-        <div class="row ">
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/1.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
 
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
+            </div>
 
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Images/wallpaperflare.com_wallpaper (4).jpg" alt="Los Angeles" class="d-block w-100 img-fluid">
+                    <div class="carousel-caption">
+                        <h3 class="">Los Angeles</h3>
+                        <p class="">We had such a great time in LA!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/lap.jpg" alt="Chicago" class="d-block w-100 img-fluid">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/camera-g1d1f7b1dc_1920.jpg" alt="New York" class="d-block w-100 img-fluid">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/Screenshot 2023-05-17 045024.png" alt="New York" class="d-block w-100 img-fluid">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
                     </div>
                 </div>
             </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/2.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
 
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <div class="row mt-5 photos">
+            <div class="col my-3 col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="card ">
+                    <a href="mobile.html"><img src="./Images/smartphone-g2ba6645ea_1920.jpg" class="card-img-top h-50"
+                            alt="..."></a>
+                    <div class="card-body bg-warning-subtle">
+                        <a href="mobile.html" class="text-decoration-none">
+                            <h5 class="card-title text-center text-warning">phones</h5>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/3.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
+            <div class="col my-3  col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <a href="cars.html"><img src="./Images/tyler-clemmensen-wLpTPp2dzsY-unsplash.jpg" class="card-img-top h-50" alt="..."></a>
+                    <div class="card-body bg-warning-subtle">
+                        <a href="cars.html" class="text-decoration-none">
+                            <h5 class="card-title text-center text-warning">Cars</h5>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/4.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
+            <div class="col my-3 col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="card ">
+                    <a href="Camera.html"><img src="./Images/cam.jpg" class="card-img-top h-50" alt="..."></a>
+                    <div class="card-body bg-warning-subtle">
+                        <a href="Camera.html" class="text-decoration-none">
+                            <h5 class="card-title text-center text-warning">Cameras</h5>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/5.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/6.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/7.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/8.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/1.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/2.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/3.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/4.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/5.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/6.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/7.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
-                <div class="card card-product">
-                    <img src="./Images/8.jpg" class="card-img-top h-50" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product-Name</h5>
-                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
-                            of
-                            the card's content.</p>
-                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-solid fa-star text-warning"></i></li>
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-
-                            <li><i class="fa-regular fa-star text-warning"></i></li>
-
-                        </ul>
-                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
-                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span
-                                    class="text-success">$</span> </span></span>
+            <div class="col my-3 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <a href="laptobs.html"><img src="./Images/lap.jpg" class="card-img-top h-50" alt="..."></a>
+                    <div class="card-body bg-warning-subtle">
+                        <a href="laptobs.html" class="text-decoration-none">
+                            <h5 class="card-title text-center text-warning">Laptobs</h5>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center mt-5 mb-5">All Products</h2>
+        <div class="row ">
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/campbell-3ZUsNJhi_Ik-unsplash.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
 
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="product.html" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/camera-gfb5ce73df_1920.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/camera-gd57c616f3_1920.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/samsung-g1af163c42_1920.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/car.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/8.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/camera-gfb5ce73df_1920.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/7.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/stefan-rodriguez-2AovfzYV3rc-unsplash.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/camera-gfb5ce73df_1920.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/camera-gd57c616f3_1920.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5 col-xl-3  col-lg-4 col-md-6 col-12">
+                <div class="card card-product">
+                    <img src="./Images/4.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product-Name</h5>
+                        <p class="card-text">Some quick example text to build on the Product-Name and make up the bulk
+                            of
+                            the card's content.</p>
+                        <ul class="list-unstyled d-flex  w-25 justify-content-between">
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-solid fa-star text-warning"></i></li>
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+
+                            <li><i class="fa-regular fa-star text-warning"></i></li>
+
+                        </ul>
+                        <a href="#" class="btn btn-warning ">Buy <i class="fa-solid fa-cart-plus ms-3"></i></a>
+                        <span class="ms-5 fw-bold">price : <span class="text-secondary">5000<span class="text-success">$</span> </span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <button id="toTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
 
