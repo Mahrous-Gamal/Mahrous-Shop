@@ -15,7 +15,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **E-Commerce** locally, run this command on your git bash:
+To run **Mahrous Shop** locally, run this command on your git bash:
 
 Linux and macOS:
 
